@@ -71,6 +71,7 @@ if __name__ == '__main__':
         reflection.enable_server_reflection(names, server)
 
         addr = f'[::]:{config.PORT}'
+
         # server.add_insecure_port(addr)
         credentials = load_credentials()
         server.add_secure_port(addr, credentials)

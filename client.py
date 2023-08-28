@@ -59,7 +59,6 @@ def track_request(event):
 
 if __name__ == '__main__':
     import config
-
     # addr = f'{config.HOST}:{config.PORT}'
     addr = f'[::]:{config.PORT}'
     client = Client(addr)

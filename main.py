@@ -37,6 +37,6 @@ print('type:', type(data))
 print('size:', len(data))
 
 #region unmarshal
-# request2 = pb.StartRequest()
-# request2.ParseFromString(data)
-# print(request2)
+request2 = pb.StartRequest()
+request2.ParseFromString(data)
+print(request2)

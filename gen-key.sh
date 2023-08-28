@@ -1,6 +1,7 @@
 set -e
 set -x
 
+
 openssl req \
     -newkey rsa:4096 \
     -x509 \
