@@ -29,3 +29,5 @@ debug.log
 static/
 .env
 staticfile
+*.pem
+*.key
